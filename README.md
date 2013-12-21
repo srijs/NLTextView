@@ -12,7 +12,7 @@ To create a selection, or expand an existing one, a pan-to-zoom gesture can be u
 
 Syntax highlighting is controlled by the properties `highlightDefinition` and `highlightTheme`.
 
-`highlightDefintion` is a mapping of hightlight identifiers to highlight regular expressions. For example:
+`highlightDefinition` is a mapping of hightlight identifiers to highlight regular expressions. For example:
 
 ```
 @{@"number": @"[0-9]+",
@@ -23,7 +23,7 @@ Syntax highlighting is controlled by the properties `highlightDefinition` and `h
 
 ```
 @{@"number": [UIColor redColor],
-  @"word:    [UIColor greenColor]
+  @"word:    [UIColor greenColor]}
 ```
 
-By default, a highlighting theme is included and the highlight definition is read from a file in the bundle called `Syntax.plist`.
+By default, a nice highlighting theme is included and the highlight definition is read from a file in the bundle called `Syntax.plist`.
