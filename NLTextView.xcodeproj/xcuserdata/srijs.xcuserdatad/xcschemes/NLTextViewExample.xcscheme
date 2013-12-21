@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5DDAB8518662705002F2041"
-               BuildableName = "libNLTextView.a"
-               BlueprintName = "NLTextView"
-               ReferencedContainer = "container:NLTextView.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "B5DDABB618662BC0002F2041"
                BuildableName = "NLTextViewExample.app"
                BlueprintName = "NLTextViewExample"
@@ -42,27 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5DDAB9518662705002F2041"
-               BuildableName = "NLTextViewTests.xctest"
-               BlueprintName = "NLTextViewTests"
-               ReferencedContainer = "container:NLTextView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5DDABD318662BC0002F2041"
-               BuildableName = "NLTextViewExampleTests.xctest"
-               BlueprintName = "NLTextViewExampleTests"
-               ReferencedContainer = "container:NLTextView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B5DDABB618662BC0002F2041"
+            BuildableName = "NLTextViewExample.app"
+            BlueprintName = "NLTextViewExample"
+            ReferencedContainer = "container:NLTextView.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -73,6 +48,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B5DDABB618662BC0002F2041"
+            BuildableName = "NLTextViewExample.app"
+            BlueprintName = "NLTextViewExample"
+            ReferencedContainer = "container:NLTextView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -82,6 +66,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B5DDABB618662BC0002F2041"
+            BuildableName = "NLTextViewExample.app"
+            BlueprintName = "NLTextViewExample"
+            ReferencedContainer = "container:NLTextView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

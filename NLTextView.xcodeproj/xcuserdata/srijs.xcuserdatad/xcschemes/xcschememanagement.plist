@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>NLTextViewExample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>B5DDAB9518662705002F2041</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5DDABB618662BC0002F2041</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5DDABD318662BC0002F2041</key>
 		<dict>
 			<key>primary</key>
 			<true/>

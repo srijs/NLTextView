@@ -16,10 +16,27 @@
 		B5DDAB9E18662705002F2041 /* libNLTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDAB8618662705002F2041 /* libNLTextView.a */; };
 		B5DDABA418662705002F2041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DDABA218662705002F2041 /* InfoPlist.strings */; };
 		B5DDABA618662705002F2041 /* NLTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DDABA518662705002F2041 /* NLTextViewTests.m */; };
+		B5DDABB818662BC0002F2041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDAB8918662705002F2041 /* Foundation.framework */; };
+		B5DDABBA18662BC0002F2041 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDABB918662BC0002F2041 /* CoreGraphics.framework */; };
+		B5DDABBB18662BC0002F2041 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDAB9A18662705002F2041 /* UIKit.framework */; };
+		B5DDABC118662BC0002F2041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DDABBF18662BC0002F2041 /* InfoPlist.strings */; };
+		B5DDABC318662BC0002F2041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DDABC218662BC0002F2041 /* main.m */; };
+		B5DDABC718662BC0002F2041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DDABC618662BC0002F2041 /* AppDelegate.m */; };
+		B5DDABCA18662BC0002F2041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DDABC818662BC0002F2041 /* Main.storyboard */; };
+		B5DDABCD18662BC0002F2041 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DDABCC18662BC0002F2041 /* ViewController.m */; };
+		B5DDABCF18662BC0002F2041 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DDABCE18662BC0002F2041 /* Images.xcassets */; };
+		B5DDABEA18662BEF002F2041 /* libNLTextView.a in Sources */ = {isa = PBXBuildFile; fileRef = B5DDAB8618662705002F2041 /* libNLTextView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B5DDAB9C18662705002F2041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DDAB7E18662705002F2041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DDAB8518662705002F2041;
+			remoteInfo = NLTextView;
+		};
+		B5DDABE818662BEA002F2041 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B5DDAB7E18662705002F2041 /* Project object */;
 			proxyType = 1;
@@ -53,6 +70,18 @@
 		B5DDABA118662705002F2041 /* NLTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NLTextViewTests-Info.plist"; sourceTree = "<group>"; };
 		B5DDABA318662705002F2041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5DDABA518662705002F2041 /* NLTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLTextViewTests.m; sourceTree = "<group>"; };
+		B5DDABB718662BC0002F2041 /* NLTextViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLTextViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DDABB918662BC0002F2041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5DDABBE18662BC0002F2041 /* NLTextViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NLTextViewExample-Info.plist"; sourceTree = "<group>"; };
+		B5DDABC018662BC0002F2041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5DDABC218662BC0002F2041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5DDABC418662BC0002F2041 /* NLTextViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NLTextViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		B5DDABC518662BC0002F2041 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5DDABC618662BC0002F2041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5DDABC918662BC0002F2041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5DDABCB18662BC0002F2041 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5DDABCC18662BC0002F2041 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5DDABCE18662BC0002F2041 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +104,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5DDABB418662BC0002F2041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DDABBA18662BC0002F2041 /* CoreGraphics.framework in Frameworks */,
+				B5DDABBB18662BC0002F2041 /* UIKit.framework in Frameworks */,
+				B5DDABB818662BC0002F2041 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +122,7 @@
 			children = (
 				B5DDAB8B18662705002F2041 /* NLTextView */,
 				B5DDAB9F18662705002F2041 /* NLTextViewTests */,
+				B5DDABBC18662BC0002F2041 /* NLTextViewExample */,
 				B5DDAB8818662705002F2041 /* Frameworks */,
 				B5DDAB8718662705002F2041 /* Products */,
 			);
@@ -93,6 +133,7 @@
 			children = (
 				B5DDAB8618662705002F2041 /* libNLTextView.a */,
 				B5DDAB9618662705002F2041 /* NLTextViewTests.xctest */,
+				B5DDABB718662BC0002F2041 /* NLTextViewExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +144,7 @@
 				B5DDAB8918662705002F2041 /* Foundation.framework */,
 				B5DDAB9718662705002F2041 /* XCTest.framework */,
 				B5DDAB9A18662705002F2041 /* UIKit.framework */,
+				B5DDABB918662BC0002F2041 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,6 +181,31 @@
 			children = (
 				B5DDABA118662705002F2041 /* NLTextViewTests-Info.plist */,
 				B5DDABA218662705002F2041 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DDABBC18662BC0002F2041 /* NLTextViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				B5DDABC518662BC0002F2041 /* AppDelegate.h */,
+				B5DDABC618662BC0002F2041 /* AppDelegate.m */,
+				B5DDABC818662BC0002F2041 /* Main.storyboard */,
+				B5DDABCB18662BC0002F2041 /* ViewController.h */,
+				B5DDABCC18662BC0002F2041 /* ViewController.m */,
+				B5DDABCE18662BC0002F2041 /* Images.xcassets */,
+				B5DDABBD18662BC0002F2041 /* Supporting Files */,
+			);
+			path = NLTextViewExample;
+			sourceTree = "<group>";
+		};
+		B5DDABBD18662BC0002F2041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DDABBE18662BC0002F2041 /* NLTextViewExample-Info.plist */,
+				B5DDABBF18662BC0002F2041 /* InfoPlist.strings */,
+				B5DDABC218662BC0002F2041 /* main.m */,
+				B5DDABC418662BC0002F2041 /* NLTextViewExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,6 +248,24 @@
 			productReference = B5DDAB9618662705002F2041 /* NLTextViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B5DDABB618662BC0002F2041 /* NLTextViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DDABE618662BC0002F2041 /* Build configuration list for PBXNativeTarget "NLTextViewExample" */;
+			buildPhases = (
+				B5DDABB318662BC0002F2041 /* Sources */,
+				B5DDABB418662BC0002F2041 /* Frameworks */,
+				B5DDABB518662BC0002F2041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DDABE918662BEA002F2041 /* PBXTargetDependency */,
+			);
+			name = NLTextViewExample;
+			productName = NLTextViewExample;
+			productReference = B5DDABB718662BC0002F2041 /* NLTextViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +274,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Sam Rijs";
+				TargetAttributes = {
+					B5DDAB9518662705002F2041 = {
+						TestTargetID = B5DDABB618662BC0002F2041;
+					};
+				};
 			};
 			buildConfigurationList = B5DDAB8118662705002F2041 /* Build configuration list for PBXProject "NLTextView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -196,6 +286,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B5DDAB7D18662705002F2041;
 			productRefGroup = B5DDAB8718662705002F2041 /* Products */;
@@ -204,6 +295,7 @@
 			targets = (
 				B5DDAB8518662705002F2041 /* NLTextView */,
 				B5DDAB9518662705002F2041 /* NLTextViewTests */,
+				B5DDABB618662BC0002F2041 /* NLTextViewExample */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +306,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5DDABA418662705002F2041 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DDABB518662BC0002F2041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DDABCF18662BC0002F2041 /* Images.xcassets in Resources */,
+				B5DDABC118662BC0002F2041 /* InfoPlist.strings in Resources */,
+				B5DDABCA18662BC0002F2041 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +338,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5DDABB318662BC0002F2041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DDABEA18662BEF002F2041 /* libNLTextView.a in Sources */,
+				B5DDABCD18662BC0002F2041 /* ViewController.m in Sources */,
+				B5DDABC718662BC0002F2041 /* AppDelegate.m in Sources */,
+				B5DDABC318662BC0002F2041 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -243,6 +356,11 @@
 			isa = PBXTargetDependency;
 			target = B5DDAB8518662705002F2041 /* NLTextView */;
 			targetProxy = B5DDAB9C18662705002F2041 /* PBXContainerItemProxy */;
+		};
+		B5DDABE918662BEA002F2041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5DDAB8518662705002F2041 /* NLTextView */;
+			targetProxy = B5DDABE818662BEA002F2041 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -253,6 +371,22 @@
 				B5DDABA318662705002F2041 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5DDABBF18662BC0002F2041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DDABC018662BC0002F2041 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5DDABC818662BC0002F2041 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DDABC918662BC0002F2041 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -356,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NLTextViewExample.app/NLTextViewExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -369,6 +504,7 @@
 				);
 				INFOPLIST_FILE = "NLTextViewTests/NLTextViewTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -377,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NLTextViewExample.app/NLTextViewExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -386,7 +523,50 @@
 				GCC_PREFIX_HEADER = "NLTextView/NLTextView-Prefix.pch";
 				INFOPLIST_FILE = "NLTextViewTests/NLTextViewTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		B5DDABE218662BC0002F2041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NLTextViewExample/NLTextViewExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NLTextViewExample/NLTextViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5DDABE318662BC0002F2041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NLTextViewExample/NLTextViewExample-Prefix.pch";
+				INFOPLIST_FILE = "NLTextViewExample/NLTextViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -409,12 +589,22 @@
 				B5DDABAB18662705002F2041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5DDABAC18662705002F2041 /* Build configuration list for PBXNativeTarget "NLTextViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5DDABAD18662705002F2041 /* Debug */,
 				B5DDABAE18662705002F2041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DDABE618662BC0002F2041 /* Build configuration list for PBXNativeTarget "NLTextViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DDABE218662BC0002F2041 /* Debug */,
+				B5DDABE318662BC0002F2041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
