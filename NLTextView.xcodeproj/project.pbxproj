@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5DDAB8A18662705002F2041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDAB8918662705002F2041 /* Foundation.framework */; };
+		B5DDAB8F18662705002F2041 /* NLTextView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5DDAB8E18662705002F2041 /* NLTextView.h */; };
+		B5DDAB9118662705002F2041 /* NLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DDAB9018662705002F2041 /* NLTextView.m */; };
+		B5DDAB9818662705002F2041 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDAB9718662705002F2041 /* XCTest.framework */; };
+		B5DDAB9918662705002F2041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDAB8918662705002F2041 /* Foundation.framework */; };
+		B5DDAB9B18662705002F2041 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDAB9A18662705002F2041 /* UIKit.framework */; };
+		B5DDAB9E18662705002F2041 /* libNLTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DDAB8618662705002F2041 /* libNLTextView.a */; };
+		B5DDABA418662705002F2041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DDABA218662705002F2041 /* InfoPlist.strings */; };
+		B5DDABA618662705002F2041 /* NLTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DDABA518662705002F2041 /* NLTextViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5DDAB9C18662705002F2041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DDAB7E18662705002F2041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DDAB8518662705002F2041;
+			remoteInfo = NLTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5DDAB8418662705002F2041 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B5DDAB8F18662705002F2041 /* NLTextView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5DDAB8618662705002F2041 /* libNLTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNLTextView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DDAB8918662705002F2041 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5DDAB8D18662705002F2041 /* NLTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NLTextView-Prefix.pch"; sourceTree = "<group>"; };
+		B5DDAB8E18662705002F2041 /* NLTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLTextView.h; sourceTree = "<group>"; };
+		B5DDAB9018662705002F2041 /* NLTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLTextView.m; sourceTree = "<group>"; };
+		B5DDAB9618662705002F2041 /* NLTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DDAB9718662705002F2041 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B5DDAB9A18662705002F2041 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B5DDABA118662705002F2041 /* NLTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NLTextViewTests-Info.plist"; sourceTree = "<group>"; };
+		B5DDABA318662705002F2041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5DDABA518662705002F2041 /* NLTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLTextViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DDAB8318662705002F2041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DDAB8A18662705002F2041 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DDAB9318662705002F2041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DDAB9818662705002F2041 /* XCTest.framework in Frameworks */,
+				B5DDAB9B18662705002F2041 /* UIKit.framework in Frameworks */,
+				B5DDAB9918662705002F2041 /* Foundation.framework in Frameworks */,
+				B5DDAB9E18662705002F2041 /* libNLTextView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5DDAB7D18662705002F2041 = {
+			isa = PBXGroup;
+			children = (
+				B5DDAB8B18662705002F2041 /* NLTextView */,
+				B5DDAB9F18662705002F2041 /* NLTextViewTests */,
+				B5DDAB8818662705002F2041 /* Frameworks */,
+				B5DDAB8718662705002F2041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5DDAB8718662705002F2041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DDAB8618662705002F2041 /* libNLTextView.a */,
+				B5DDAB9618662705002F2041 /* NLTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5DDAB8818662705002F2041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5DDAB8918662705002F2041 /* Foundation.framework */,
+				B5DDAB9718662705002F2041 /* XCTest.framework */,
+				B5DDAB9A18662705002F2041 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5DDAB8B18662705002F2041 /* NLTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B5DDAB8E18662705002F2041 /* NLTextView.h */,
+				B5DDAB9018662705002F2041 /* NLTextView.m */,
+				B5DDAB8C18662705002F2041 /* Supporting Files */,
+			);
+			path = NLTextView;
+			sourceTree = "<group>";
+		};
+		B5DDAB8C18662705002F2041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DDAB8D18662705002F2041 /* NLTextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DDAB9F18662705002F2041 /* NLTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5DDABA518662705002F2041 /* NLTextViewTests.m */,
+				B5DDABA018662705002F2041 /* Supporting Files */,
+			);
+			path = NLTextViewTests;
+			sourceTree = "<group>";
+		};
+		B5DDABA018662705002F2041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DDABA118662705002F2041 /* NLTextViewTests-Info.plist */,
+				B5DDABA218662705002F2041 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5DDAB8518662705002F2041 /* NLTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DDABA918662705002F2041 /* Build configuration list for PBXNativeTarget "NLTextView" */;
+			buildPhases = (
+				B5DDAB8218662705002F2041 /* Sources */,
+				B5DDAB8318662705002F2041 /* Frameworks */,
+				B5DDAB8418662705002F2041 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NLTextView;
+			productName = NLTextView;
+			productReference = B5DDAB8618662705002F2041 /* libNLTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B5DDAB9518662705002F2041 /* NLTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DDABAC18662705002F2041 /* Build configuration list for PBXNativeTarget "NLTextViewTests" */;
+			buildPhases = (
+				B5DDAB9218662705002F2041 /* Sources */,
+				B5DDAB9318662705002F2041 /* Frameworks */,
+				B5DDAB9418662705002F2041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DDAB9D18662705002F2041 /* PBXTargetDependency */,
+			);
+			name = NLTextViewTests;
+			productName = NLTextViewTests;
+			productReference = B5DDAB9618662705002F2041 /* NLTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DDAB7E18662705002F2041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sam Rijs";
+			};
+			buildConfigurationList = B5DDAB8118662705002F2041 /* Build configuration list for PBXProject "NLTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5DDAB7D18662705002F2041;
+			productRefGroup = B5DDAB8718662705002F2041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5DDAB8518662705002F2041 /* NLTextView */,
+				B5DDAB9518662705002F2041 /* NLTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5DDAB9418662705002F2041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DDABA418662705002F2041 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DDAB8218662705002F2041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DDAB9118662705002F2041 /* NLTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DDAB9218662705002F2041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DDABA618662705002F2041 /* NLTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5DDAB9D18662705002F2041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5DDAB8518662705002F2041 /* NLTextView */;
+			targetProxy = B5DDAB9C18662705002F2041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5DDABA218662705002F2041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DDABA318662705002F2041 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5DDABA718662705002F2041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5DDABA818662705002F2041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5DDABAA18662705002F2041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NLTextView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NLTextView/NLTextView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5DDABAB18662705002F2041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NLTextView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NLTextView/NLTextView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B5DDABAD18662705002F2041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NLTextView/NLTextView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NLTextViewTests/NLTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B5DDABAE18662705002F2041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NLTextView/NLTextView-Prefix.pch";
+				INFOPLIST_FILE = "NLTextViewTests/NLTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5DDAB8118662705002F2041 /* Build configuration list for PBXProject "NLTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DDABA718662705002F2041 /* Debug */,
+				B5DDABA818662705002F2041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DDABA918662705002F2041 /* Build configuration list for PBXNativeTarget "NLTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DDABAA18662705002F2041 /* Debug */,
+				B5DDABAB18662705002F2041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5DDABAC18662705002F2041 /* Build configuration list for PBXNativeTarget "NLTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DDABAD18662705002F2041 /* Debug */,
+				B5DDABAE18662705002F2041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5DDAB7E18662705002F2041 /* Project object */;
+}
